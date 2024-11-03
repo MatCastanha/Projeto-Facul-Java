@@ -7,7 +7,7 @@ public class Main {
     Random random = new Random();
 
     String Opcao="",RolarD20="RolarD20",Soma="Soma",Sair="Sair";
-    int Number = random.nextInt(20);
+    int Number = random.nextInt(20) + 1;
     int num1=0, num2=0;
     
     System.out.println("RolarD20\nSoma\nSair");
