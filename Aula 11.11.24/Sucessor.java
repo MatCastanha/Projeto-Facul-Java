@@ -2,12 +2,14 @@ import java.util.Scanner;
 
 public class Main {
 
-  public static void Soma(int num, int numS){
+  public static void S(int num, int numS){
 
-
-    for(int i=num;i>=1;i--){
+    int i=1;
+    
+    while(i<=num){
       System.out.print(numS+" ");
       numS++;
+      i++;
     }
     
   }
@@ -20,7 +22,7 @@ public class Main {
     System.out.println("Digite um numero: ");
     num = scanner.nextInt();
 
-    Soma(num, numS);
+    S(num, numS);
 
   }
 
